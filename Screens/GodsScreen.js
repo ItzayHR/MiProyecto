@@ -28,16 +28,18 @@ const GodsScreen = ({navigation}) => {
                                                 style={styles.imagenDios}
                                                 source={{
                                                     uri: `${dios.url}`, 
+                                                    
                                                 }}
                                             />
 
+                                            {console.log(dios.url)}
                                             <Button
                                                 onPress={()=>(
                                                     AsignarCarril(dios),
                                                     navigation.navigate('Info')
                                                 )}
                                                 key={index}
-                                                title="Jugar"   
+                                                title="Seleccionar" 
                                             />
                                         </View>
                                 </Card>

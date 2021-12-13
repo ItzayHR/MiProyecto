@@ -47,6 +47,7 @@ const SmiteProvider = (props) =>
             _tipo:dios.tipo,
             _danio:dios.danio,
             _carril:carril,
+            _url:dios.url
         }
         setDescripcion(tempGod);
     }
